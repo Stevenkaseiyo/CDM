@@ -59,7 +59,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 model.eval()
-dataset_path = './models/biolink/test_label.csv'
+dataset_path = '../data/test_label.csv'
 dataset = pd.read_csv(dataset_path)
 drug_attention_agg = np.zeros((num_layers, num_heads))
 effect_attention_agg = np.zeros((num_layers, num_heads))

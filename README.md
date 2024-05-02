@@ -1,5 +1,5 @@
 # Dataset description
-1.
+1. The test_label.csv file is the test set file used in my experiment
 
 # File Description
 1. The distribution_baseline_drug_eg.py file is an example in the baseline model. Using the one-tail test in ttest, the proportion of drug to five categories of tokens is calculated.
